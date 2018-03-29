@@ -1,0 +1,11 @@
+.blue { color: 'blue;'; }
+
+body { background: #ddd; }
+
+#box { background: red; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; height: 120px; width: 120px; }
+
+.message, .warning { background-color: #333; border: 3px solid black; font-weight: bold; color: white; }
+
+.warning { border: 3px dotted green; }
+
+/*# sourceMappingURL=style.css.map */

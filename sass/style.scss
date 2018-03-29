@@ -1,0 +1,28 @@
+$bg: #ddd;
+$bg2: #333;
+
+@import 'colors';
+@import 'mixins';
+
+body {
+    background: $bg;
+}
+
+#box {
+    background: red;
+    @include border-radius(5px);
+    height: 120px;
+    width: 120px;
+}
+
+.message {
+    background-color: $bg2;
+    border: 3px solid black;
+    font-weight: bold;
+    color:white;
+}
+
+.warning {
+    @extend .message;
+    border: 3px dotted green;
+}
